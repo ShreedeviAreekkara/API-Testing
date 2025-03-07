@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/WIndows/Desktop/My Files/Shreedevi/old files/API Testing">
+        <classes>
+            <class name="Shreedevi_Automation_Projects.testNG.ra_01"></class>
+            <class name="Shreedevi_Automation_Projects.testNG.ra_00"></class>
+        </classes>
+    </test>
+
+</suite>

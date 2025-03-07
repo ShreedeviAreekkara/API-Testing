@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/WIndows/Desktop/My Files/Shreedevi/old files/API Testing">
+        <groups>
+           <run>
+               <include name="Sanity"/>
+               <include name="UAT"/>
+               <include name="Prod"/>
+           </run>
+        </groups>
+        <classes>
+            <class name="TestNG_Priority.groups"/>
+        </classes>
+    </test>
+
+</suite>
