@@ -107,7 +107,7 @@ public class ra_007 {
         //3. AssertJ Matching
         //totalPrice = vr.extract().path("totalprice");
         //assertThat(totalPrice).isEqualTo(1024);
-        String checkout = vr.extract().path("checkout");
+        String checkout = vr.extract().path("bookingdates.checkout");
         assertThat(checkout).isNotEmpty().isEqualTo("2024-01-02");
 
    }
